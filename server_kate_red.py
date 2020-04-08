@@ -93,7 +93,7 @@ class Server:
 
         coroutine = await loop.create_server(
             self.build_protocol,
-            "192.168.0.25",
+            "192.168.0.27",
             8888
         )
 
